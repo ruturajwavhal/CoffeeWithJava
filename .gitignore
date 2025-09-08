@@ -2,8 +2,8 @@
 *.class
 
 #Intellij file
-.idea
-.iml
+*.idea
+*.iml
 # Log file
 *.log
 

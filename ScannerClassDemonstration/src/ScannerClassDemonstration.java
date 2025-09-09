@@ -18,12 +18,27 @@ public class ScannerClassDemonstration {
         /**
          *  Here we are performing arithmetic operations and printing result accordingly
          */
+        System.out.println("Choose following option to perform Arithmetic opertion : \n1 : Addition\n2 : Substraction\n3 : Multiplication\n4 : Division\n5 : Modulus");
+        int opt = sc.nextInt();
 
-        System.out.println("Addition is : " + (a + b));
-        System.out.println("Substraction is : " + (a - b));
-        System.out.println("Multiplication is : " + (a * b));
-        System.out.println("Division is : " + (a / b));
-        System.out.println("Modulus is : " + (a % b));
+        if(opt == 1){
+            System.out.println("Addition is : " + (a + b));
+        }
+        else if(opt == 2){
+            System.out.println("Substraction is : " + (a - b));
+        }
+        else if(opt == 3){
+            System.out.println("Multiplication is : " + (a * b));
+        }
+        else if(opt == 4){
+            System.out.println("Division is : " + (a / b));
+        }
+        else if(opt == 5){
+            System.out.println("Modulus is : " + (a % b));
+        }
+        else{
+            System.out.println("Please enter valid option, try again!!!");
+        }
 
         /**
          * Here we are illustrating relational operator
